@@ -44,7 +44,7 @@ function chart(){
             circumference: 1 * Math.PI,
             title: {
                 display: true,
-                text: 'Eleccions Parlament Catalunya 2019',
+                text: 'Eleccions Catalunya 2019',
                 fontSize: 50
             },
             legend: {
@@ -60,7 +60,7 @@ function chart(){
 }
 
 function updateData(chart, data){
-    chart.options.title.text = 'Parlament Catalunya'
+    chart.options.title.text = 'Eleccions Catalunya 2021'
     chart.data.datasets.forEach((dataset, i) => {
         dataset.data = data;
     });
