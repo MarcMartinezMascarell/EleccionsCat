@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Eleccions 14F</title>
+</head>
+<body>
+    <h1>Eleccions Parlament Catalunya 14F</h1>
+
+    <p class="esconsTotals">Escons totals: <span>135</span></p>
+    <p id="error"></p>
+
+    <form class="form" id="form">
+        <div class="opcions">
+            <div class="opcio">
+                <label class="opcio__label">ERC:</label>
+                <input id="erc" class="opcio__input" type="number" value="0" onClick="this.select();">
+            </div>
+            <div class="opcio">
+                <label class="opcio__label">JxCat:</label>
+                <input id="jxcat" class="opcio__input" type="number" value="0" onClick="this.select();">
+            </div>
+            <div class="opcio">
+                <label class="opcio__label">PSC:</label>
+                <input id="psc" class="opcio__input" type="number" value="0" onClick="this.select();">
+            </div>
+            <div class="opcio">
+                <label class="opcio__label">Cs:</label>
+                <input id="cs" class="opcio__input" type="number" value="0" onClick="this.select();">
+            </div>
+            <div class="opcio">
+                <label class="opcio__label">ECP:</label>
+                <input id="ecp" class="opcio__input" type="number" value="0" onClick="this.select();">
+            </div>
+            <div class="opcio">
+                <label class="opcio__label">CUP:</label>
+                <input id="cup" class="opcio__input" type="number" value="0" onClick="this.select();">
+            </div>
+            <div class="opcio">
+                <label class="opcio__label">PP:</label>
+                <input id="pp" class="opcio__input" type="number" value="0" onClick="this.select();">
+            </div>
+            <div class="opcio">
+                <label class="opcio__label">VOX:</label>
+                <input id="vox" class="opcio__input" type="number" value="0" onClick="this.select();">
+            </div>
+            <div class="opcio">
+                <label class="opcio__label">PdCat:</label>
+                <input id="pdcat" class="opcio__input" type="number" value="0" onClick="this.select();">
+            </div>
+            
+        </div>
+        <input type="button" value="Crear" class="button" id="button">
+    </form>
+    <div class="canvasDiv">
+        <canvas id="myChart"></canvas>
+    </div>
+
+    <script src="chartjs/dist/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

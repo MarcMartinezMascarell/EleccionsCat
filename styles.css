@@ -1,0 +1,56 @@
+body {
+    max-height: 1vh;
+}
+
+#myChart {
+    width: 70vw;
+}
+
+.esconsTotals {
+    margin: 0 auto 1.5rem auto;
+    text-align: center;
+    font-weight: 800;
+}
+
+#error {
+    color: red;
+    margin: 0 auto 1.5rem auto;
+    text-align: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.opcions{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.opcio{
+    flex-grow: 1;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+}
+
+.opcio__label{
+    width: 10%;
+}
+
+.opcio__input{
+    width: 20%;
+}
+
+.button{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.canvasDiv{
+    display: flex;
+    justify-content: center;
+}
